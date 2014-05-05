@@ -38,7 +38,7 @@ class ConfirmUserExampleCallback
                 $out = 'Old email '.$oldMail.' adress is already in use';
             }
         }
-        ConfirmUser::where('name', 'newMail')->where('user_id', $user->id)->delete();
+        ConfirmUser::where('action', 'newMail')->where('user_id', $user->id)->delete();
         return $out;
     }
 }
