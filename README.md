@@ -2,7 +2,7 @@
 Add l4-confirm-action to you composer.json file:
 ```
 "require": {
-	"AgelxNash/l4-confirm-action": "dev-master"
+	"agelxnash/l4-confirm-action": "dev-master"
 }
 ```
 Now, run a composer update on the command line from the root of your project:
