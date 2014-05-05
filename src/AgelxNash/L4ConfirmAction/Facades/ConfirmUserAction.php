@@ -6,6 +6,6 @@ class ConfirmUserAction extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'confirm-action';
+        return 'l4-confirm-action';
     }
 }
